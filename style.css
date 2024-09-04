@@ -1,0 +1,50 @@
+button {
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+   body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    /* Add a container to hold the coin flip result */
+    .coin-flip-container {
+      width: 50%;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Style the coin flip result message */
+    .coin-flip-result {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    /* Add some visual flair to the coin flip result */
+    .coin-flip-result:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      background-color: #f7f7f7;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+    }
+    
+    /* Style the heads and tails icons */
+    .heads-icon:before {
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Heads-side-of-2005-Kansas-Quarter.jpg/220px-Heads-side-of-2005-Kansas-Quarter.jpg");
+      background-size: 20px 20px;
+    }
+    
+    .tails-icon:before {
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tails-side-of-2005-Kansas-Quarter.jpg/220px-Tails-side-of-2005-Kansas-Quarter.jpg");
+      background-size: 20px 20px;
+    }
